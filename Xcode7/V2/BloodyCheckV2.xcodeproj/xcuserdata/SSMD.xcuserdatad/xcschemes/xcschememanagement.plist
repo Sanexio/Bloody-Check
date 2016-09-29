@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BloodyCheckV2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C6D72A911D34EA5C009A32DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6D72AA81D34EA5E009A32DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6D72AB31D34EA5E009A32DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

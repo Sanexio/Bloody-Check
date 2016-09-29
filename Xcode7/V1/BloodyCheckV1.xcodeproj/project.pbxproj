@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C640B5781D2E74CF0069015E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640B5771D2E74CF0069015E /* AppDelegate.swift */; };
+		C640B57A1D2E74CF0069015E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640B5791D2E74CF0069015E /* ViewController.swift */; };
+		C640B57D1D2E74CF0069015E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C640B57B1D2E74CF0069015E /* Main.storyboard */; };
+		C640B5801D2E74CF0069015E /* BloodyCheckV1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C640B57E1D2E74CF0069015E /* BloodyCheckV1.xcdatamodeld */; };
+		C640B5821D2E74CF0069015E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C640B5811D2E74CF0069015E /* Assets.xcassets */; };
+		C640B5851D2E74CF0069015E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C640B5831D2E74CF0069015E /* LaunchScreen.storyboard */; };
+		C640B5901D2E74CF0069015E /* BloodyCheckV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640B58F1D2E74CF0069015E /* BloodyCheckV1Tests.swift */; };
+		C640B59B1D2E74D00069015E /* BloodyCheckV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640B59A1D2E74D00069015E /* BloodyCheckV1UITests.swift */; };
+		C640B5AC1D2E86CC0069015E /* Laborwerte.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640B5AB1D2E86CC0069015E /* Laborwerte.swift */; };
+		C640B5AE1D2E90CA0069015E /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C640B5AD1D2E90CA0069015E /* DetailController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C640B58C1D2E74CF0069015E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C640B56C1D2E74CE0069015E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C640B5731D2E74CE0069015E;
+			remoteInfo = BloodyCheckV1;
+		};
+		C640B5971D2E74D00069015E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C640B56C1D2E74CE0069015E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C640B5731D2E74CE0069015E;
+			remoteInfo = BloodyCheckV1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C640B5741D2E74CF0069015E /* BloodyCheckV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodyCheckV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C640B5771D2E74CF0069015E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C640B5791D2E74CF0069015E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = BloodyCheckV1/ViewController.swift; sourceTree = "<group>"; };
+		C640B57C1D2E74CF0069015E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C640B57F1D2E74CF0069015E /* BloodyCheckV1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BloodyCheckV1.xcdatamodel; sourceTree = "<group>"; };
+		C640B5811D2E74CF0069015E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C640B5841D2E74CF0069015E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C640B5861D2E74CF0069015E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C640B58B1D2E74CF0069015E /* BloodyCheckV1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodyCheckV1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C640B58F1D2E74CF0069015E /* BloodyCheckV1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodyCheckV1Tests.swift; sourceTree = "<group>"; };
+		C640B5911D2E74CF0069015E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C640B5961D2E74D00069015E /* BloodyCheckV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodyCheckV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C640B59A1D2E74D00069015E /* BloodyCheckV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodyCheckV1UITests.swift; sourceTree = "<group>"; };
+		C640B59C1D2E74D00069015E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C640B5AB1D2E86CC0069015E /* Laborwerte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Laborwerte.swift; sourceTree = "<group>"; };
+		C640B5AD1D2E90CA0069015E /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C640B5711D2E74CE0069015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C640B5881D2E74CF0069015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C640B5931D2E74D00069015E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C640B56B1D2E74CE0069015E = {
+			isa = PBXGroup;
+			children = (
+				C640B5AA1D2E7A0B0069015E /* BloodyCheckV1 */,
+				C640B58E1D2E74CF0069015E /* BloodyCheckV1Tests */,
+				C640B5991D2E74D00069015E /* BloodyCheckV1UITests */,
+				C640B5751D2E74CF0069015E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C640B5751D2E74CF0069015E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C640B5741D2E74CF0069015E /* BloodyCheckV1.app */,
+				C640B58B1D2E74CF0069015E /* BloodyCheckV1Tests.xctest */,
+				C640B5961D2E74D00069015E /* BloodyCheckV1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C640B5761D2E74CF0069015E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C640B5771D2E74CF0069015E /* AppDelegate.swift */,
+				C640B5811D2E74CF0069015E /* Assets.xcassets */,
+				C640B5831D2E74CF0069015E /* LaunchScreen.storyboard */,
+				C640B5861D2E74CF0069015E /* Info.plist */,
+				C640B57E1D2E74CF0069015E /* BloodyCheckV1.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			path = BloodyCheckV1;
+			sourceTree = "<group>";
+		};
+		C640B58E1D2E74CF0069015E /* BloodyCheckV1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C640B58F1D2E74CF0069015E /* BloodyCheckV1Tests.swift */,
+				C640B5911D2E74CF0069015E /* Info.plist */,
+			);
+			path = BloodyCheckV1Tests;
+			sourceTree = "<group>";
+		};
+		C640B5991D2E74D00069015E /* BloodyCheckV1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C640B59A1D2E74D00069015E /* BloodyCheckV1UITests.swift */,
+				C640B59C1D2E74D00069015E /* Info.plist */,
+			);
+			path = BloodyCheckV1UITests;
+			sourceTree = "<group>";
+		};
+		C640B5AA1D2E7A0B0069015E /* BloodyCheckV1 */ = {
+			isa = PBXGroup;
+			children = (
+				C640B5791D2E74CF0069015E /* ViewController.swift */,
+				C640B5AD1D2E90CA0069015E /* DetailController.swift */,
+				C640B5AB1D2E86CC0069015E /* Laborwerte.swift */,
+				C640B57B1D2E74CF0069015E /* Main.storyboard */,
+				C640B5761D2E74CF0069015E /* Supporting Files */,
+			);
+			name = BloodyCheckV1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C640B5731D2E74CE0069015E /* BloodyCheckV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C640B59F1D2E74D00069015E /* Build configuration list for PBXNativeTarget "BloodyCheckV1" */;
+			buildPhases = (
+				C640B5701D2E74CE0069015E /* Sources */,
+				C640B5711D2E74CE0069015E /* Frameworks */,
+				C640B5721D2E74CE0069015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodyCheckV1;
+			productName = BloodyCheckV1;
+			productReference = C640B5741D2E74CF0069015E /* BloodyCheckV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C640B58A1D2E74CF0069015E /* BloodyCheckV1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C640B5A21D2E74D00069015E /* Build configuration list for PBXNativeTarget "BloodyCheckV1Tests" */;
+			buildPhases = (
+				C640B5871D2E74CF0069015E /* Sources */,
+				C640B5881D2E74CF0069015E /* Frameworks */,
+				C640B5891D2E74CF0069015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C640B58D1D2E74CF0069015E /* PBXTargetDependency */,
+			);
+			name = BloodyCheckV1Tests;
+			productName = BloodyCheckV1Tests;
+			productReference = C640B58B1D2E74CF0069015E /* BloodyCheckV1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C640B5951D2E74D00069015E /* BloodyCheckV1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C640B5A51D2E74D00069015E /* Build configuration list for PBXNativeTarget "BloodyCheckV1UITests" */;
+			buildPhases = (
+				C640B5921D2E74D00069015E /* Sources */,
+				C640B5931D2E74D00069015E /* Frameworks */,
+				C640B5941D2E74D00069015E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C640B5981D2E74D00069015E /* PBXTargetDependency */,
+			);
+			name = BloodyCheckV1UITests;
+			productName = BloodyCheckV1UITests;
+			productReference = C640B5961D2E74D00069015E /* BloodyCheckV1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C640B56C1D2E74CE0069015E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sanexio;
+				TargetAttributes = {
+					C640B5731D2E74CE0069015E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C640B58A1D2E74CF0069015E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C640B5731D2E74CE0069015E;
+					};
+					C640B5951D2E74D00069015E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C640B5731D2E74CE0069015E;
+					};
+				};
+			};
+			buildConfigurationList = C640B56F1D2E74CE0069015E /* Build configuration list for PBXProject "BloodyCheckV1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C640B56B1D2E74CE0069015E;
+			productRefGroup = C640B5751D2E74CF0069015E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C640B5731D2E74CE0069015E /* BloodyCheckV1 */,
+				C640B58A1D2E74CF0069015E /* BloodyCheckV1Tests */,
+				C640B5951D2E74D00069015E /* BloodyCheckV1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C640B5721D2E74CE0069015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C640B5851D2E74CF0069015E /* LaunchScreen.storyboard in Resources */,
+				C640B5821D2E74CF0069015E /* Assets.xcassets in Resources */,
+				C640B57D1D2E74CF0069015E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C640B5891D2E74CF0069015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C640B5941D2E74D00069015E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C640B5701D2E74CE0069015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C640B57A1D2E74CF0069015E /* ViewController.swift in Sources */,
+				C640B5801D2E74CF0069015E /* BloodyCheckV1.xcdatamodeld in Sources */,
+				C640B5AC1D2E86CC0069015E /* Laborwerte.swift in Sources */,
+				C640B5AE1D2E90CA0069015E /* DetailController.swift in Sources */,
+				C640B5781D2E74CF0069015E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C640B5871D2E74CF0069015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C640B5901D2E74CF0069015E /* BloodyCheckV1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C640B5921D2E74D00069015E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C640B59B1D2E74D00069015E /* BloodyCheckV1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C640B58D1D2E74CF0069015E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C640B5731D2E74CE0069015E /* BloodyCheckV1 */;
+			targetProxy = C640B58C1D2E74CF0069015E /* PBXContainerItemProxy */;
+		};
+		C640B5981D2E74D00069015E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C640B5731D2E74CE0069015E /* BloodyCheckV1 */;
+			targetProxy = C640B5971D2E74D00069015E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C640B57B1D2E74CF0069015E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C640B57C1D2E74CF0069015E /* Base */,
+			);
+			name = Main.storyboard;
+			path = BloodyCheckV1;
+			sourceTree = "<group>";
+		};
+		C640B5831D2E74CF0069015E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C640B5841D2E74CF0069015E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C640B59D1D2E74D00069015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C640B59E1D2E74D00069015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C640B5A01D2E74D00069015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BloodyCheckV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanexio.BloodyCheckV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C640B5A11D2E74D00069015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BloodyCheckV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanexio.BloodyCheckV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C640B5A31D2E74D00069015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BloodyCheckV1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanexio.BloodyCheckV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodyCheckV1.app/BloodyCheckV1";
+			};
+			name = Debug;
+		};
+		C640B5A41D2E74D00069015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BloodyCheckV1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanexio.BloodyCheckV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodyCheckV1.app/BloodyCheckV1";
+			};
+			name = Release;
+		};
+		C640B5A61D2E74D00069015E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BloodyCheckV1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanexio.BloodyCheckV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BloodyCheckV1;
+			};
+			name = Debug;
+		};
+		C640B5A71D2E74D00069015E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BloodyCheckV1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanexio.BloodyCheckV1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BloodyCheckV1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C640B56F1D2E74CE0069015E /* Build configuration list for PBXProject "BloodyCheckV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C640B59D1D2E74D00069015E /* Debug */,
+				C640B59E1D2E74D00069015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C640B59F1D2E74D00069015E /* Build configuration list for PBXNativeTarget "BloodyCheckV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C640B5A01D2E74D00069015E /* Debug */,
+				C640B5A11D2E74D00069015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C640B5A21D2E74D00069015E /* Build configuration list for PBXNativeTarget "BloodyCheckV1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C640B5A31D2E74D00069015E /* Debug */,
+				C640B5A41D2E74D00069015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C640B5A51D2E74D00069015E /* Build configuration list for PBXNativeTarget "BloodyCheckV1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C640B5A61D2E74D00069015E /* Debug */,
+				C640B5A71D2E74D00069015E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C640B57E1D2E74CF0069015E /* BloodyCheckV1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C640B57F1D2E74CF0069015E /* BloodyCheckV1.xcdatamodel */,
+			);
+			currentVersion = C640B57F1D2E74CF0069015E /* BloodyCheckV1.xcdatamodel */;
+			path = BloodyCheckV1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C640B56C1D2E74CE0069015E /* Project object */;
+}
